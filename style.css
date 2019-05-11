@@ -1,0 +1,43 @@
+* {
+ padding: 0px;
+ margin: 0px;
+}
+
+#header {
+ position: fixed;
+ width: 100vw;
+}
+
+#header-img {
+ display: block;
+ float: left;
+ position: fixed;
+ width: 85px;
+ top: -5px;
+ z-index: 2;
+}
+
+#nav-bar ul {
+ list-style: none;
+ width: 100vw;
+ text-align: center;
+ background: lightgray;
+ z-index: 1;
+}
+
+#nav-bar li {
+ padding: 5px 20px;
+}
+
+.nav-link {
+ text-decoration: none;
+ color: brown;
+}
+
+#story-banner {
+ width: 100vw;
+ height: 40vh;
+ background: url("https://images.pexels.com/photos/47316/cocoa-beans-cocoa-cacao-candy-47316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center/cover fixed no-repeat;
+}
+
+#story #video #people-banner #people #contact-banner #contact footer
