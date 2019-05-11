@@ -1,6 +1,22 @@
 * {
  padding: 0px;
  margin: 0px;
+ font-size: 18px;
+ font-family: sans-serif;
+}
+
+h2 {
+ font-size: 1.5em;
+}
+
+h1 {
+ font-size: 2em;
+ color: white;
+ text-align: center;
+}
+
+p {
+ font-size: 1.1em;
 }
 
 #header {
@@ -12,7 +28,7 @@
  display: block;
  float: left;
  position: fixed;
- width: 85px;
+ width: 90px;
  top: -5px;
  z-index: 2;
 }
@@ -36,8 +52,75 @@
 
 #story-banner {
  width: 100vw;
- height: 40vh;
+ height: 100vh;
  background: url("https://images.pexels.com/photos/47316/cocoa-beans-cocoa-cacao-candy-47316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center/cover fixed no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
-#story #video #people-banner #people #contact-banner #contact footer
+h2,
+p {
+ padding: 20px;
+}
+
+#video {
+ padding-bottom: 40px;
+}
+
+#people-banner {
+ background: url("https://images.pexels.com/photos/2255462/pexels-photo-2255462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center/cover fixed no-repeat;
+ width: 100vw;
+ height: 50vh;
+}
+
+#people {
+ background-color: black;
+ color: white;
+}
+
+#contact-banner {
+ background: url("https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500") center/cover fixed no-repeat;
+ width: 100vw;
+ height: 50vh;
+}
+
+#contact {
+ text-align: center;
+ color: brown;
+}
+
+form {
+ padding: 20px 0px;
+}
+
+#email {
+ margin: 15px auto;
+ text-align: center;
+ border-radius: 10px;
+ border: 1px solid brown;
+ padding: 10px 0px;
+ width: 80vw;
+}
+
+#submit {
+ width: 80vw;
+ background: brown;
+ color: white;
+ border: none;
+ padding: 10px 0px;
+ border-radius: 10px;
+}
+
+footer {
+ background: brown;
+ color: white;
+ font-size: 0.8em;
+ text-align: center;
+}
+
+footer a {
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
