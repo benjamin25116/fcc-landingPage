@@ -17,6 +17,7 @@ h1 {
 
 p {
  font-size: 1.1em;
+ line-height: 2em;
 }
 
 #header {
@@ -66,6 +67,8 @@ p {
 
 #video {
  padding-bottom: 40px;
+ width: 100vw;
+ height: calc((100vw / 16) * 9);
 }
 
 #people-banner {
@@ -113,14 +116,48 @@ form {
 }
 
 footer {
- background: brown;
- color: white;
+ background: lightgray;
+ color: brown;
  font-size: 0.8em;
  text-align: center;
 }
 
 footer a {
  text-decoration: none;
- color: white;
+ color: brown;
  font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+ #nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ #nav-bar li {
+  padding: 20px;
+ }
+
+ #header-img {
+  width: 70px;
+ }
+
+ h1 {
+  font-size: 5em;
+ }
+
+ h2 {
+  font-size: 2em;
+  text-align: center;
+ }
+
+ #story,
+ #people {
+  padding: 5vh 0px;
+ }
+
+ #submit,
+ #email {
+  width: 50vw;
+ }
 }
