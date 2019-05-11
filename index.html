@@ -10,10 +10,10 @@
 </head>
 
 <body>
- <img
- src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Fc2%2F14%2F5b%2Fc2145ba06862c3e19669ed71bcf14ae4.png&f=1"
- alt="Coffee cup logo" id="header-img">
  <header id="header">
+  <img
+   src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Fc2%2F14%2F5b%2Fc2145ba06862c3e19669ed71bcf14ae4.png&f=1"
+   alt="Coffee cup logo" id="header-img">
   <nav id="nav-bar">
    <ul>
     <li><a href="#story" class="nav-link">Story</a></li>
@@ -22,16 +22,20 @@
    </ul>
   </nav>
  </header>
- <div id="story-banner"></div>
- <div id="story"></div>
- <h1>A Cup of Heaven</h1>
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum voluptatum omnis natus praesentium numquam
-  incidunt voluptatibus temporibus. Cum unde beatae perspiciatis molestias ullam, sint voluptas at quasi quaerat
-  impedit harum maxime architecto, dolores recusandae suscipit quas earum! Provident, voluptate laudantium illum
-  impedit nisi odio suscipit. Odit sint temporibus obcaecati!</p>
- <iframe id="video" src="" frameborder="0"></iframe>
+ <div id="story-banner">
+  <h1>Welcome to Coffee Cup</h1>
  </div>
- <div id="people-banner"></div>
+ <div id="story">
+  <h2>A Cup of Heaven</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum voluptatum omnis natus praesentium numquam
+   incidunt voluptatibus temporibus. Cum unde beatae perspiciatis molestias ullam, sint voluptas at quasi quaerat
+   impedit harum maxime architecto, dolores recusandae suscipit quas earum! Provident, voluptate laudantium illum
+   impedit nisi odio suscipit. Odit sint temporibus obcaecati!</p>
+  <iframe id="video" width="100%" src="https://www.youtube.com/embed/pzVuGXnRab8" frameborder="0"
+   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ <div id="people-banner">
+ </div>
  <div id="people">
   <h2>They make it happen</h2>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quasi accusamus culpa cum modi quia totam
@@ -41,15 +45,16 @@
  </div>
  <div id="contact-banner"></div>
  <div id="contact">
-  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, rem.</h2>
   <form action="https://www.freecodecamp.com/email-submit" id="form">
-   <label for="email">Enter your email</label>
+   <label for="email">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, rem.</h2>
+   </label>
    <input type="email" id="email" name="email" placeholder="Your email here">
    <input type="submit" id="submit" value="Subscribe for updates">
   </form>
  </div>
  <footer>
-  <p>Copyright 2019, Coffee Cup</p>
+  <p><a href="#story-banner">Back to top</a> <br> <br> Copyright 2019, Coffee Cup</p>
  </footer>
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
